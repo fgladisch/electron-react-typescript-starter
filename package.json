@@ -1,7 +1,11 @@
 {
 	"name": "electron-react-typescript-starter",
   "version": "0.1.0",
-  "main": "electron-build/electron-starter.js",
+	"main": "electron-build/electron-starter.js",
+	"author": {
+		"name": "Felix A. Gladisch",
+		"email": "felix@felixgladisch.de"
+	},
 	"private": true,
 	"scripts": {
 		"start": "BROWSER=none react-scripts-ts start",
