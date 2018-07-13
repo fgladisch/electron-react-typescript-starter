@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"outDir": "./electron-build",
+		"rootDir": "./src",
+		"removeComments": true
+	},
+	"files": ["./src/electron-starter"],
+	"exclude": ["node_modules", "electron-build", "build", "config-overrides.js"]
+}
