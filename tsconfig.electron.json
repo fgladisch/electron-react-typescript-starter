@@ -7,6 +7,6 @@
 		"rootDir": "./src",
 		"removeComments": true
 	},
-	"files": ["./src/electron-starter"],
+	"files": ["./src/electron/electron-starter"],
 	"exclude": ["node_modules", "electron-build", "build", "config-overrides.js"]
 }

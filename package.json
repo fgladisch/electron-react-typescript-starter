@@ -16,7 +16,7 @@
     "postinstall": "electron-builder install-app-deps",
     "electron": "yarn electron:compile && electron .",
     "electron:compile": "tsc --project tsconfig.electron.json",
-    "electron:wait": "ts-node --project tsconfig.electron.json src/electron-wait-react",
+    "electron:wait": "ts-node --project tsconfig.electron.json src/electron/electron-wait-react",
     "electron:dev": "nf start -p 3000",
     "electron:pack": "yarn electron:compile && yarn build:electron && electron-builder --dir",
     "electron:publish": "yarn electron:compile && yarn build:electron && electron-builder"
